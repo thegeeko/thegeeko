@@ -17,7 +17,7 @@ HTTP handshake and then using the TCP connection used for the handshake to send 
 
 ### The Handshake
 
-A normal GET request from a client with some requirements specified in [the](https://datatracker.ietf.org/doc/html/rfc6455#section-4.1) spec](https://datatracker.ietf.org/doc/html/rfc6455#section-4.1) I won't get into them because it's more client-related but you can always read the spec and you should.
+A normal GET request from a client with some requirements specified in [the spec](https://datatracker.ietf.org/doc/html/rfc6455#section-4.1), I won't get into them because it's more client-related but you can always read the spec and you should.
 and the server parses that header, performs some operations and returns a response based on some info on the request.
 
 One of the requirements for the handshake request is to set the `Sec-WebSocket-Key` header with the base64 encoding 
