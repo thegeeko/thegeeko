@@ -15,7 +15,7 @@ form a texture and apply various effects on our image.
 
 ### How Do We Do it
 We make use of the GPU doing some work for us the GPU clips everything outside the normalized space
-so if we managed to render a big triangle covering the whole screen what we get is a quad which is better than the traditional way of doing it with 2 triangles making a quad as we invoke 3 draw calls instead of 6.
+so if we managed to render a big triangle covering the whole screen what we get is a quad which is better than the traditional way of doing it with 2 triangles making a quad as we invoke a draw call with 3 vertices instead of 6.
 
 Creating vertex buffers in Vulkan is a lot of boilerplate code and it's kind of annoying 
 so storing the vertices in the vertex shader or generating them is a much better way.
