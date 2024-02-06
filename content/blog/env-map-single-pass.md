@@ -5,6 +5,9 @@ title: Implementing Skyboxes as Post Processing Pass(Screen Space)
 description: describing how to render skyboxes without any buffers in screen space
 date: 2024-02-06
 ---
+**Disclaimer:** _{% mark %} Take everything in this post with a grain of salt as I'm still early on my journey and I'm still learning. {% /mark %}_
+
+
 This post describes how to render skyboxes with minimal memory bandwidth all we need
 is the skybox texture to sample from, the inverse of projection and view matrices.
 I will describe the process using Vulkan API as that's what I'm using.
