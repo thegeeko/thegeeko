@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: How The WebSocket Server Works
-description: describing how the WebSocket server works and hints on parsing its frames
+description: Describing how the WebSocket server works and hints on parsing its frames.
 date: 2023-11-14
 ---
 

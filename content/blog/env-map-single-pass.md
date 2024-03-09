@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: Implementing Skyboxes as Post Processing Pass(Screen Space)
-description: describing how to render skyboxes without any buffers in screen space
+description: Describing how to render skyboxes without any buffers in screen space.
 date: 2024-02-06
 ---
 **Disclaimer:** _{% mark %} Take everything in this post with a grain of salt as I'm still early on my journey and I'm still learning. {% /mark %}_
