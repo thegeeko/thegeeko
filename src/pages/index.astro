@@ -2,7 +2,8 @@
 import PageMeta from "../components/PageMeta.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import Intro from "../components/Intro.astro";
-import ImIntersted from "../components/ImInterested.astro"
+import ImIntersted from "../components/ImInterested.astro";
+import Projects from "../components/Projects.astro";
 import { SITE_TITLE } from "../config";
 ---
 
@@ -10,6 +11,7 @@ import { SITE_TITLE } from "../config";
   <PageMeta title={`${SITE_TITLE}`} slot="meta" />
   <Fragment slot="main">
     <Intro />
+		<Projects />
     <ImIntersted />
   </Fragment>
 </PageLayout>

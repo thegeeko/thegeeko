@@ -1,0 +1,94 @@
+---
+import YouTubeEmbed from "./YouTubeEmbed.astro";
+---
+
+<div class="mt-10">
+	<h2 class="font-bold text-white text-xl">
+		Here's some of the work I've done:
+	</h2>
+
+	<div>
+		<strong>Neogeg</strong>
+		<p>A vulkan based Game engine</p>
+		<ul>
+			<li>
+				Image Based Lighting Based on
+				<a
+					href="https://cdn2.unrealengine.com/Resources/files/2013SiggraphPresentationsNotes-26915738.pdf"
+				>
+					Real Shading in Unreal Engine 4
+				</a>.
+			</li>
+			<li>
+				Entity Component System based on <a
+					href="https://github.com/skypjack/entt">ENTT</a
+				>.
+			</li>
+			<li>
+				Automated descriptor-set management system with cache and reusing
+				descriptors.
+			</li>
+		</ul>
+		<YouTubeEmbed url="https://youtube.com/embed/Y50IaB-6flg" />
+	</div>
+	<div class="pt-10">
+		<strong>Foliage Rendering</strong>
+		<p>
+			Optimized compute based Foliage Rendering using Vulkan here is <a
+				href="/blog/foliage-rendering">a blog post about it</a
+			>
+			<ul>
+				<li>Frustum culling.</li>
+				<li>LOD based on distance.</li>
+				<li>GPU Profiler using Vulkan query timestamps.</li>
+				<li>Made use of Indirect Draw and GPU Instancing.</li>
+				<li>
+					Made use of Vulkan features like
+					<code> VK_EXT_buffer_device_address</code>
+					<code> VK_EXT_descriptor_indexing</code>.
+				</li>
+			</ul>
+			<YouTubeEmbed url="https://youtube.com/embed/mDakjkrvH-0" />
+		</p>
+	</div>
+	<div class="pt-10">
+		<strong>Packet Sniffer</strong>
+		<p>
+			A prototype of a packet sniffer using libpacaplusplus
+			<ul>
+				<li>
+					ImGui and OpenGL for UI.
+				</li>
+				<li>Multiple threads for capturing and processing packets.</li>
+			</ul>
+			<img src="/images/network-capture.png" alt="screen shot of the application">
+		</p>
+	</div>
+	<div class="pt-10">
+		<strong>Web Socket Server</strong>
+		<p>
+			Fully complaint server implementation based on <a
+				href="https://datatracker.ietf.org/doc/html/rfc6455">RFC6455</a
+			>
+			<ul>
+				<li>
+					Pass all <a href="https://github.com/crossbario/autobahn-testsuite"
+						>Autobahn test-suit.</a
+					>
+				</li>
+				<li>Zero dependencies not even libc.</li>
+			</ul>
+		</p>
+	</div>
+	<div class="pt-10">
+		<strong> TooSquare</strong>
+		<p>
+			A Unity Game for the GGJ22 with friends you can play it <a
+				href="https://v3.globalgamejam.org/2022/games/toosquare-7"
+			>
+				here
+			</a>.
+			<img src="/images/toosquareart_1.png" alt="screen shot of the game" />
+		</p>
+	</div>
+</div>
