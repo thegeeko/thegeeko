@@ -1,3 +1,3 @@
 # Hi I'm Abdelhadi
 
-Have fun exploring my github! :3
+Please look at [https://codeberg.org/a_hadi](https://codeberg.org/a_hadi) instead.
